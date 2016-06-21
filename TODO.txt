@@ -1,4 +1,4 @@
-Opcodes TODO(все есть в опкодах для 540):
+Opcodes TODO(everything is in the codes for 540):
 
 Spell system:
 
@@ -45,7 +45,7 @@ SMSG_GROUP_UNINVITE
 
 Guild:
 
-SMSG_GUILD_CHALLENGE_COMPLETED // 6672 не найден в снифах, нужно проверить структуру
+SMSG_GUILD_CHALLENGE_COMPLETED // 6672 not found in the SNIP need to check the structure of
 
 
 Achievement:
@@ -65,6 +65,6 @@ SMSG_TOGGLE_XP_GAIN
 
 
 --
-После создания персонажа не видно только что созданного персонажа. Почему-то он сохраняется в базу дольше, чем должен. Такая же проблема может быть с ренеймом и т.д.
-Какие-то проблемы с достижениями за завершенные квесты
-если сесть на трофейный чоппер из ульдуара и использовать заклинание "мазут", то будет краш клиента. Фейлит spell_go для ауры(!) от триггера. Без чоппера спелл работает верно.
+After creating a character you can not see the newly created character. Somehow, it is stored in the database longer than it should. The same problem may be to reneymom etc.
+Some problems with the achievements of completed quests
+if you sit down on the chopper trophy of Ulduar and use the spell "oil", it will crash the client. Fail to spell_go aura (!) From the trigger. Without chopper spell it works correctly.
