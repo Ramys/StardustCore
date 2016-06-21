@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2005-2013 MaNGOS <http://www.getmangos.com/>
- * Copyright (C) 2008-2013 Trinity <http://www.trinitycore.org/>
+ * Copyright (C) 2015-2016 StardustCore <http://www.getmangos.com/>
+ * Copyright (C) 2015-2016 StardustCore <http://www.trinitycore.org/>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
