@@ -1,5 +1,5 @@
 # Copyright (C) 2008-2012 TrinityCore <http://www.trinitycore.org/>
-# Copyright (C) 2012-2013 Pandashan <http://www.pandashan.com/>
+# Copyright (C) 2015-2016 StardustCore <http://www.pandashan.com/>
 #
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without
@@ -10,7 +10,7 @@
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 # Set projectname (must be done AFTER setting configurationtypes)
-project(JadeCore)
+project(StardustCore)
 
 # CMake policies (can not be handled elsewhere)
 cmake_minimum_required(VERSION 2.6)
