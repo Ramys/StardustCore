@@ -1092,10 +1092,10 @@ BeepAtStart = 1
 #    Motd
 #        Description: Message of the Day, displayed at login.
 #                     Use '@' for a newline and be sure to escape special characters.
-#        Example:     "Welcome to John\'s Server@This server runs on Trinity Core."
-#        Default:     "Welcome to a Trinity Core server."
+#        Example:     "Welcome to John\'s Server@This server runs on StardustCore."
+#        Default:     "Welcome to a StardustCore server."
 
-Motd = "Bienvenue sur Pandashan, le premier serveur Mist of Pandaria au monde !"
+Motd = "Welcome to a StardustCore server."
 
 #
 #    Server.LoginInfo
@@ -2388,9 +2388,9 @@ Arena.QueueAnnouncer.Enable = 0
 #
 #    Arena.ArenaSeason.ID
 #        Description: Current arena season id shown in clients.
-#        Default:     8
+#        Default:     15
 
-Arena.ArenaSeason.ID = 8
+Arena.ArenaSeason.ID = 15
 
 #
 #    Arena.ArenaSeason.InProgress
