@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2008-2012 TrinityCore <http://www.trinitycore.org/>
- * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
+ * Copyright (C) 2008-2012 StardustCore <http://www.trinitycore.org/>
+ * Copyright (C) 2005-2009 StardustCore <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -95,7 +95,7 @@ class Log
         uint32 realm;
         LogWorker* worker;
 
-        FILE* pandashanLog;
+        FILE* stardustLog;
 };
 
 #define sLog ACE_Singleton<Log, ACE_Thread_Mutex>::instance()
