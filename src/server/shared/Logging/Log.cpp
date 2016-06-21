@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2008-2012 TrinityCore <http://www.trinitycore.org/>
- * Copyright (C) 2005-2008 MaNGOS <http://getmangos.com/>
+ * Copyright (C) 2008-2012 StardustCore <http://www.trinitycore.org/>
+ * Copyright (C) 2005-2008 StardustCore <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -34,16 +34,16 @@ Log::Log() : worker(NULL)
     SetRealmID(0);
     m_logsTimestamp = "_" + GetTimestampStr();
     LoadFromConfig();
-    pandashanLog = fopen("pandashan.log", "a");
+    stardustLog = fopen("stardust.log", "a");
 }
 
 Log::~Log()
 {
     Close();
 
-    fclose(pandashanLog);
-    delete pandashanLog;
-    pandashanLog = NULL;
+    fclose(stardustLog);
+    delete stardustLog;
+    stardustLog = NULL;
 }
 
 uint8 Log::NextAppenderId()
