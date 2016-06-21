@@ -1,9 +1,9 @@
 # output generic information about the core and buildtype chosen
 message("")
-message("* TrinityCore rev. hash  : ${rev_hash}")
-message("* TrinityCore rev. date  : ${rev_date}")
+message("* StardustCore rev. hash  : ${rev_hash}")
+message("* StardustCore rev. date  : ${rev_date}")
 if( UNIX )
-  message("* TrinityCore buildtype  : ${CMAKE_BUILD_TYPE}")
+  message("* StardustCore buildtype  : ${CMAKE_BUILD_TYPE}")
 endif()
 message("")
 
