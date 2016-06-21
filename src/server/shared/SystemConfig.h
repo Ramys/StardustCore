@@ -1,6 +1,6 @@
 /*
- * Copyright (C) 2008-2012 TrinityCore <http://www.trinitycore.org/>
- * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
+ * Copyright (C) 2008-2012 StardustCore <http://www.trinitycore.org/>
+ * Copyright (C) 2005-2009 StardustCore <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -24,7 +24,7 @@
 #include "Define.h"
 #include "revision.h"
 
-#define _PACKAGENAME "JadeCore"
+#define _PACKAGENAME "StardustCore"
 
 #if TRINITY_ENDIAN == TRINITY_BIGENDIAN
 # define _ENDIAN_STRING "big-endian"
