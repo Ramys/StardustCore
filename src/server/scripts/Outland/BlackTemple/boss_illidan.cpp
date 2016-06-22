@@ -146,7 +146,7 @@ enum Spells
 #define EQUIP_ID_OFF_HAND   32838
 
 /**** Creature Summon and Recognition IDs ****/
-enum CreatureEntry
+enum CreatureEntryIllidan
 {
     EMPTY                   =       0,
     AKAMA                   =   22990,
